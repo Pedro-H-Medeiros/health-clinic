@@ -4,6 +4,9 @@ import { Header } from '@/components/Header'
 import { WhatsappButton } from '@/components/whatsapp-button'
 
 import { AboutUs } from './about-us'
+import { Costumers } from './costumers'
+import { HighlightEmployee } from './highlight-employee'
+import { Metrics } from './metrics'
 import { Services } from './services'
 import { Teams } from './teams'
 
@@ -42,6 +45,9 @@ export function Dashboard() {
       <AboutUs />
       <Services />
       <Teams />
+      <HighlightEmployee />
+      <Metrics />
+      <Costumers />
     </>
   )
 }
