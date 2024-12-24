@@ -1,7 +1,7 @@
 export function Services() {
   return (
-    <div className="h-dvh">
-      <div className="flex h-full flex-col items-center justify-center p-8 md:h-fit">
+    <div className="h-vh mt-8">
+      <div className="flex h-fit flex-col items-center justify-center p-8 md:h-full">
         <div className="text-center">
           <h2 className="mb-4 text-4xl font-bold text-gray-900">Serviços</h2>
           <p className="mb-8 text-gray-600">

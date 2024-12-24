@@ -5,6 +5,7 @@ import { WhatsappButton } from '@/components/whatsapp-button'
 
 import { AboutUs } from './about-us'
 import { Services } from './services'
+import { Teams } from './teams'
 
 export function Dashboard() {
   return (
@@ -40,6 +41,7 @@ export function Dashboard() {
 
       <AboutUs />
       <Services />
+      <Teams />
     </>
   )
 }
