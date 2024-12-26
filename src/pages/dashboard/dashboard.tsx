@@ -5,6 +5,7 @@ import { Header } from '@/components/header'
 import { WhatsappButton } from '@/components/whatsapp-button'
 
 import { AboutUs } from './about-us'
+import { Appointment } from './appointment'
 import { Costumers } from './costumers'
 import { HighlightEmployee } from './highlight-employee'
 import { Location } from './location'
@@ -51,6 +52,7 @@ export function Dashboard() {
       <Metrics />
       <Costumers />
       <Location />
+      <Appointment />
 
       <Footer />
     </>
