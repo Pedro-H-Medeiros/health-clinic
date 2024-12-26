@@ -55,28 +55,50 @@ export function Header() {
         <nav className="hidden justify-between px-4 lg:flex">
           <ul className="flex items-center justify-center gap-8 text-nowrap">
             <li>
-              <button onClick={() => handleScroll('services')}>Serviços</button>
+              <button
+                className="hover:opacity-60"
+                onClick={() => handleScroll('services')}
+              >
+                Serviços
+              </button>
             </li>
             <li>
-              <button onClick={() => handleScroll('about-us')}>
+              <button
+                className="hover:opacity-60"
+                onClick={() => handleScroll('about-us')}
+              >
                 Sobre Nós
               </button>
             </li>
             <li>
-              <button onClick={() => handleScroll('dentist')}>Dentista</button>
+              <button
+                className="hover:opacity-60"
+                onClick={() => handleScroll('dentist')}
+              >
+                Dentista
+              </button>
             </li>
             <li>
-              <button onClick={() => handleScroll('appointment')}>
+              <button
+                className="hover:opacity-60"
+                onClick={() => handleScroll('appointment')}
+              >
                 Agendamento
               </button>
             </li>
             <li>
-              <button onClick={() => handleScroll('teams')}>
+              <button
+                className="hover:opacity-60"
+                onClick={() => handleScroll('teams')}
+              >
                 Nossa Equipe
               </button>
             </li>
             <li>
-              <button onClick={() => handleScroll('location')}>
+              <button
+                className="hover:opacity-60"
+                onClick={() => handleScroll('location')}
+              >
                 Localização
               </button>
             </li>
@@ -91,32 +113,50 @@ export function Header() {
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56">
               <DropdownMenuItem>
-                <button onClick={() => handleScroll('services')}>
+                <button
+                  className="hover:opacity-60"
+                  onClick={() => handleScroll('services')}
+                >
                   Serviços
                 </button>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <button onClick={() => handleScroll('about-us')}>
+                <button
+                  className="hover:opacity-60"
+                  onClick={() => handleScroll('about-us')}
+                >
                   Sobre Nós
                 </button>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <button onClick={() => handleScroll('dentist')}>
+                <button
+                  className="hover:opacity-60"
+                  onClick={() => handleScroll('dentist')}
+                >
                   Dentista
                 </button>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <button onClick={() => handleScroll('appointment')}>
+                <button
+                  className="hover:opacity-60"
+                  onClick={() => handleScroll('appointment')}
+                >
                   Agendamento
                 </button>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <button onClick={() => handleScroll('teams')}>
+                <button
+                  className="hover:opacity-60"
+                  onClick={() => handleScroll('teams')}
+                >
                   Nossa Equipe
                 </button>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <button onClick={() => handleScroll('location')}>
+                <button
+                  className="hover:opacity-60"
+                  onClick={() => handleScroll('location')}
+                >
                   Localização
                 </button>
               </DropdownMenuItem>

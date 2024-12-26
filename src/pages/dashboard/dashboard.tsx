@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react'
 
+import { Footer } from '@/components/footer'
 import { Header } from '@/components/header'
 import { WhatsappButton } from '@/components/whatsapp-button'
 
@@ -50,6 +51,8 @@ export function Dashboard() {
       <Metrics />
       <Costumers />
       <Location />
+
+      <Footer />
     </>
   )
 }
