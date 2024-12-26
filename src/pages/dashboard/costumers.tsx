@@ -1,6 +1,6 @@
 export function Costumers() {
   return (
-    <div className="h-[calc(100dvh-5rem)]">
+    <div className="h-fit lg:h-[calc(100dvh-5rem)]">
       <div className="flex h-full flex-wrap items-center justify-around">
         {/* METRIC 1 */}
         <div className="relative flex w-1/2 flex-col items-center md:w-1/4">

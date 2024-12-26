@@ -1,6 +1,6 @@
 export function AboutUs() {
   return (
-    <div className="h-vh mt-8 w-full">
+    <div id="about-us" className="h-vh mt-8 w-full">
       <div className="flex h-fit items-center justify-around md:h-full">
         <div className="p-8 md:w-2/3 md:pl-36">
           <h2 className="pb-7 text-4xl font-bold text-gray-900">Sobre Nós</h2>

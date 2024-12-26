@@ -1,6 +1,7 @@
 export function Teams() {
   return (
     <div
+      id="teams"
       className="w-dvh relative mt-8 h-dvh bg-cover bg-no-repeat"
       style={{ backgroundImage: `url(https://placehold.co/600x400)` }}
     >

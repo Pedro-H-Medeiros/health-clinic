@@ -1,6 +1,6 @@
 export function HighlightEmployee() {
   return (
-    <div className="h-fit">
+    <div id="dentist" className="h-fit">
       <div className="p-8">
         <div className="mb-8 text-center">
           <h2 className="pb-7 text-4xl font-bold text-red-400">

@@ -26,6 +26,18 @@ export function Header() {
     }
   }, [])
 
+  const handleScroll = (id: string) => {
+    const element = document.getElementById(id)
+    if (element) {
+      const offset = 100
+
+      window.scrollTo({
+        top: element.offsetTop - offset,
+        behavior: 'smooth',
+      })
+    }
+  }
+
   return (
     <div
       className={`sticky top-0 z-50 bg-white transition-all duration-500 ${hasShadow ? 'drop-shadow-lg' : ''}`}
@@ -43,22 +55,30 @@ export function Header() {
         <nav className="hidden justify-between px-4 lg:flex">
           <ul className="flex items-center justify-center gap-8 text-nowrap">
             <li>
-              <a href="#">Serviços</a>
+              <button onClick={() => handleScroll('services')}>Serviços</button>
             </li>
             <li>
-              <a href="#">Sobre Nós</a>
+              <button onClick={() => handleScroll('about-us')}>
+                Sobre Nós
+              </button>
             </li>
             <li>
-              <a href="#">Dentista</a>
+              <button onClick={() => handleScroll('dentist')}>Dentista</button>
             </li>
             <li>
-              <a href="#">Agendamento</a>
+              <button onClick={() => handleScroll('appointment')}>
+                Agendamento
+              </button>
             </li>
             <li>
-              <a href="#">Nossa Equipe</a>
+              <button onClick={() => handleScroll('teams')}>
+                Nossa Equipe
+              </button>
             </li>
             <li>
-              <a href="#">Localização</a>
+              <button onClick={() => handleScroll('location')}>
+                Localização
+              </button>
             </li>
           </ul>
         </nav>
@@ -71,22 +91,34 @@ export function Header() {
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56">
               <DropdownMenuItem>
-                <a href="#">Serviços</a>
+                <button onClick={() => handleScroll('services')}>
+                  Serviços
+                </button>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <a href="#">Sobre Nós</a>
+                <button onClick={() => handleScroll('about-us')}>
+                  Sobre Nós
+                </button>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <a href="#">Dentista</a>
+                <button onClick={() => handleScroll('dentist')}>
+                  Dentista
+                </button>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <a href="#">Agendamento</a>
+                <button onClick={() => handleScroll('appointment')}>
+                  Agendamento
+                </button>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <a href="#">Nossa Equipe</a>
+                <button onClick={() => handleScroll('teams')}>
+                  Nossa Equipe
+                </button>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <a href="#">Localização</a>
+                <button onClick={() => handleScroll('location')}>
+                  Localização
+                </button>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

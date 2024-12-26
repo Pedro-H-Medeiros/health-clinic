@@ -1,11 +1,12 @@
 import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react'
 
-import { Header } from '@/components/Header'
+import { Header } from '@/components/header'
 import { WhatsappButton } from '@/components/whatsapp-button'
 
 import { AboutUs } from './about-us'
 import { Costumers } from './costumers'
 import { HighlightEmployee } from './highlight-employee'
+import { Location } from './location'
 import { Metrics } from './metrics'
 import { Services } from './services'
 import { Teams } from './teams'
@@ -48,6 +49,7 @@ export function Dashboard() {
       <HighlightEmployee />
       <Metrics />
       <Costumers />
+      <Location />
     </>
   )
 }
