@@ -1,7 +1,7 @@
 import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react'
 
 import { Footer } from '@/components/footer'
-import { Header } from '@/components/header'
+import { Header } from '@/components/Header'
 import { WhatsappButton } from '@/components/whatsapp-button'
 
 import { AboutUs } from './about-us'
